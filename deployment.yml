@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: dotnet-dec7-baran
-        image: adityaregistry.azurecr.io/dotnet-dec7_barandevops:#{Build.BuildId}#
+        image: adityaregistry.azurecr.io/barancreative/dotnet-dec7_barandevops:#{Build.BuildId}#
         ports:
         - name: baran-port
           containerPort: 80
